@@ -59,7 +59,7 @@ public class SearcherLifetimeManagerTest {
             }
         }else{ 
             // searcher was pruned, nofity user that the serach session has timeout
-            System.out.println("searcher was pruned, nofity user that the serach session has timeout");
+            System.out.println("searcher was pruned, nofity user that the search session has timeout.");
         }
 
         searcherLifetimeManager.prune(new SearcherLifetimeManager.PruneByAge(600.0));
